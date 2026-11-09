@@ -36,6 +36,16 @@ yarn-error.log*
 # vercel
 .vercel
 
+# nfl source downloads and generated load files
+/data/raw/
+/data/warehouse/
+.tmp-nfl/
+.tmp-pbp-2025.parquet
+
+# python
+__pycache__/
+*.pyc
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
